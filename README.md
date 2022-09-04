@@ -4,10 +4,17 @@ This is an enhanced repository as a task
 
 ## Install
 Required Node.js 14^
+
 To run on the mock server
-```git clone https://github.com/Honest-Foxy/Postman-Newman-GHActions```
+
+```
+git clone https://github.com/Honest-Foxy/Postman-Newman-GHActions
+```
 Then install dipendences
-```npm i```
+
+```
+npm i
+```
 
 ## Run in Postman
 1. Run the mock server ```npm run tern-on-api```
