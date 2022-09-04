@@ -1,12 +1,21 @@
-# Postman + newman + github actions (Simple store template)
+# Postman-Newman-GHactions
+This is an enhanced repository as a task
+- <a href="https://github.com/WannaBeDream/Postman-newman-ghActions"> Task repositiry link </a>
 
-## Task steps
-1. Read: 
-- <a href="https://svitla.com/blog/testing-rest-api-with-postman-and-curl"> Postman & Curl & REST article </a> 
-- <a href="https://learning.postman.com/docs/writing-scripts/script-references/test-examples/">Postman tests examples (off doc)</a>
-2. Download this repo.
-3. Run `npm i` (install node.js dependencies)
-4. Run `npm run tern-on-api`(to run testing server locally )
+## Install
+To run on the mock server
+```git clone ```
+Then install dipendences
+```npm i```
+
+## Run in Postman
+1. Run the mock server ```npm run tern-on-api```
+2. Import the `store.postman_collection.json` file into Postman
+3. Open the "Store" collection
+4. CLick the "send" button to run tests
+
+## Run by Neman
+Enter in the terminal ```npx newman run store.postman_collection.json```
 
 ### Overview of local server testing
 Routes `/products`, `/orders` and `/users`. Below is a table of supported operations with `products` as example resource. The same operations are also supports for `orders/` and `users/`.
